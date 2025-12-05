@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prof-Major – Beats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <a href="index.html" class="brand">Prof-Major</a>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="beats.html">Beats</a>
+      <a href="sound-kits.html">Sound Kits</a>
+      <a href="services.html">Services</a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1>Beats</h1>
+    <div class="filters">
+      <select id="filter-bpm">
+        <option value="all">All BPM</option>
+        <option value="<120">Below 120</option>
+        <option value="120-140">120–140</option>
+        <option value=">140">Above 140</option>
+      </select>
+      <select id="filter-mood">
+        <option value="all">All Moods</option>
+        <option value="dark">Dark</option>
+        <option value="chill">Chill</option>
+        <option value="aggressive">Aggressive</option>
+      </select>
+      <select id="filter-genre">
+        <option value="all">All Genres</option>
+        <option value="trap">Trap</option>
+        <option value="hiphop">Hip-Hop</option>
+        <option value="rnb">R&B</option>
+      </select>
+      <select id="sort-by">
+        <option value="recent">Sort By: Recent</option>
+        <option value="bpm">Sort By: BPM</option>
+        <option value="length">Sort By: Length</option>
+      </select>
+    </div>
+
+    <div class="search inline">
+      <input id="beat-search" type="text" placeholder="Search for your desired beat..." />
+      <button class="icon-btn" id="beat-search-btn">🔍</button>
+    </div>
+
+    <ul id="beat-list" class="list"></ul>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Prof-Major. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

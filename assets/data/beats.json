@@ -1,0 +1,8 @@
+[
+  {"id":"beat-1","title":"head banger","bpm":152,"length":"3:23","genre":"trap","mood":"aggressive","price":25.95},
+  {"id":"beat-2","title":"grow","bpm":142,"length":"3:36","genre":"trap","mood":"dark","price":25.95},
+  {"id":"beat-3","title":"bradley bill","bpm":133,"length":"3:08","genre":"trap","mood":"chill","price":25.95},
+  {"id":"beat-4","title":"back in the boat","bpm":140,"length":"3:40","genre":"trap","mood":"dark","price":25.95},
+  {"id":"beat-5","title":"war","bpm":181,"length":"3:34","genre":"trap","mood":"aggressive","price":25.95}
+]
+

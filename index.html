@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prof Major – Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-left">
+      <a href="index.html" class="brand">The Professor</a>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="beats.html">Beats</a>
+      <a href="sound-kits.html">Sound Kits</a>
+      <a href="services.html">Services</a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count">0</span></a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Browse our entire catalog</h1>
+        <p>Dark, modern template for beats, kits, services, and products.</p>
+        <div class="hero-actions">
+          <a class="btn" href="beats.html">Explore Beats</a>
+          <a class="btn ghost" href="products.html">Shop Products</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="search">
+          <input id="home-search" type="text" placeholder="Search Beats..." />
+          <button class="icon-btn" id="home-search-btn">🔍</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <a class="card big" href="beats.html">
+        <h3>Beats</h3>
+        <p>Discover tracks by mood, genre, and BPM</p>
+      </a>
+      <a class="card" href="sound-kits.html">
+        <h3>Sound Kits</h3>
+        <p>Sample packs and drum kits</p>
+      </a>
+      <a class="card" href="services.html">
+        <h3>Services</h3>
+        <p>Mixing, mastering, custom production</p>
+      </a>
+      <a class="card" href="products.html">
+        <h3>Products</h3>
+        <p>Merch and accessories</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> ... All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
